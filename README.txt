@@ -36,7 +36,7 @@ Usage
 This is just your standard a Pylons application. You'll need Python
 (2.6+) and Setuptools installed. Then run:
 
-   python setup.py build
+   python setup.py develop
 
 That will download the rest of the dependencies and install them for
 you. Now you should be able to start the server:
@@ -64,5 +64,5 @@ Just run:
 
   python make.py
 
-You'll end up with a target directory with a standalone build.
-To distribute I just make a self-extracting 7zip archive of that directory.
+You'll end up with a target directory with a run_server.bat file.
+For distribution, I just make a self-extracting 7zip archive of that directory.

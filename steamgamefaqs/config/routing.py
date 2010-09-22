@@ -22,5 +22,5 @@ def make_map(config):
 
     map.connect('/{controller}/{action}')
     map.connect('/{controller}/{action}/{id}')
-
+    map.connect("/",controller="gamefaqs",action="index")
     return map
