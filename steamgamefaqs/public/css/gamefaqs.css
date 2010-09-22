@@ -1,0 +1,64 @@
+div#toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    padding: 0;
+    background: #000;
+}
+div#toolbar {
+    color: #fff;
+}
+div#toolbar div#title {
+    float: left;
+    width: 200px;
+}
+div#toolbar div#search {
+    float: left;
+}
+div#toolbar table {
+    color: #fff;
+    text-align: center;
+}
+.search-results > td{
+    margin-right: 50px;
+}
+#next-result, #prev-result {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    font-size: 2.0em;
+    width: 40px;
+    text-align:center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+body {
+    padding-top: 75px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.current_result {
+    background-color: red;
+}
+
+#game-results table {
+    border-color: #600;
+    border-width: 0 0 1px 1px;
+    border-style: solid;
+}
+
+#game-results td, #game-results th {
+    border-color: #600;
+    border-width: 1px 1px 0 0;
+    border-style: solid;
+    margin: 0;
+    padding: 4px;
+    background-color: #FFC;
+}

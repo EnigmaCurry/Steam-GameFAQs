@@ -1,0 +1,3 @@
+include steamgamefaqs/config/deployment.ini_tmpl
+recursive-include steamgamefaqs/public *
+recursive-include steamgamefaqs/templates *

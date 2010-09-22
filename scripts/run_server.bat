@@ -1,0 +1,2 @@
+cd steamgamefaqs
+go.exe
