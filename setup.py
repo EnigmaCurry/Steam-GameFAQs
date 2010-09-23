@@ -7,7 +7,7 @@ except ImportError:
 
 setup(
     name='steam-gamefaqs',
-    version='0.1',
+    version='1.0',
     description='',
     author='',
     author_email='',

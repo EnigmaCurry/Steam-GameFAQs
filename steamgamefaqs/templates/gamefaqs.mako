@@ -21,7 +21,7 @@
         <table>
           <tr>
             <th>Search Games</th>
-            <th>Search this Page</th>
+            <th>Search This Page</th>
             <th><span class="search-results">Search Results</span></th>
           </tr>
           <tr>

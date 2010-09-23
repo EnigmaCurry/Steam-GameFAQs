@@ -20,7 +20,10 @@ def make_map(config):
 
     # CUSTOM ROUTES HERE
 
+    map.connect('/gamefaqs/{action}', controller='gamefaqs')
+    map.connect('/{action}', controller="gamefaqs")
+    map.connect('/', controller="gamefaqs", action="index")
+
     map.connect('/{controller}/{action}')
     map.connect('/{controller}/{action}/{id}')
-    map.connect("/",controller="gamefaqs",action="index")
     return map

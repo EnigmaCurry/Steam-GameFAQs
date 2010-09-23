@@ -200,5 +200,5 @@ f = Freezer(os.path.join(install_root,install_path), includes=(
 f.addScript(os.path.join("scripts","go.py"))
 f()
 
-shutil.copyfile("development.ini",os.path.join(install_root,install_path,"app.ini"))
-shutil.copyfile(os.path.join("scripts","run_server.bat"), os.path.join(install_root,"run_server.bat"))
+shutil.copyfile("app.ini",os.path.join(install_root,install_path,"app.ini"))
+shutil.copyfile(os.path.join("scripts","run_server.bat"), os.path.join(install_root,"start_steam_gamefaqs.bat"))
